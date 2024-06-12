@@ -1,0 +1,33 @@
+@import '../../style/colors.scss';
+
+.add_task_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width:  190px; 
+    max-height: 30px;
+    width: 100%;
+    height: 100%;
+    margin:  0 20px;
+    .icon_add_task{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $important-color;
+        border-radius:50%;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        .add_icon:hover {
+            transform: scale(1.3);
+            &:active{
+                transform: scale(0.8)
+            }
+        }
+    }
+}
+.title_add_task{
+    font-size: 1rem;
+    font-weight: 600;
+}

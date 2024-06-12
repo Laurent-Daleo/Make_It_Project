@@ -1,0 +1,36 @@
+@import '../../style/colors.scss';
+
+
+.connexion_content{
+    position: absolute;
+    right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: $secondary-color;
+    font-size: 14px;
+    font-weight: regular;
+    cursor: pointer;
+    .subscribe{
+        width: 74px;
+        background-color:$thirty-color;
+        border: none;
+        border-radius: 6px;
+        padding: 8px;
+        &:hover{
+            background-color: $important-color;
+            color: $primary-color;
+        }
+    }
+}
+.connect{
+    background-color: $primary-color;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    &:hover{
+    background-color: $important-color;
+    color: $primary-color;
+}
+}

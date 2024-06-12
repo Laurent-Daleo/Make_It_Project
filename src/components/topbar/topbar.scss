@@ -1,0 +1,11 @@
+@import '../../style/colors.scss';
+.topbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: $primary-color;
+}

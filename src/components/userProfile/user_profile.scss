@@ -1,0 +1,47 @@
+@import '../../style/colors.scss';
+
+.user_profile_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 380px;
+    width: 100%;
+    max-height: 60px;
+    margin: 23px 18px ;
+    margin-bottom: 62px;
+}
+.user-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 110px;
+    width: 100%;
+    max-height: 45px;
+    height: 100%;
+    .user-photo{
+        width: 45px;
+        height: 45px;
+        border: 3px solid #106E88;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+.username{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.tasks-notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 32px;
+    gap: 10px;
+}
+.bell-notification,.calendar-notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

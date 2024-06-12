@@ -1,0 +1,64 @@
+@import '../../style/colors.scss';
+
+.connect_input_content{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 26px;
+}
+
+.connect_input_title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: $secondary-color;
+}
+.connect_form{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+input{
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    &::placeholder{
+        width: 100%;
+        min-height: 24px;
+    }
+    &:focus{
+        font-size: 1.25rem;
+    }
+}
+.input_email,.input_pwd{
+    position: relative;
+    min-width: 470px;
+    width: 100%;
+    height: 70px;
+    border: 1px solid $secondary-color;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 10px;
+}
+.btn_submit_connect{
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: $important-color;
+    color: white;
+    padding: 10px 13px;
+}
+.forget_pwd{
+    text-decoration: underline;
+}
+.eye_pwd{
+    position: absolute;
+    right: 10px;
+}
