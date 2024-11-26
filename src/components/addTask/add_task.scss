@@ -31,3 +31,37 @@
     font-size: 1rem;
     font-weight: 600;
 }
+.input_add_task{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding-left: 150px;
+    .user_add_task{
+        width: 200px;
+        background-color: transparent;
+        border-bottom: 2px solid $thirty-color;
+    }
+}
+
+.btn_add_task,.btn_add_date{
+    width: auto;
+    color: $primary-color;
+    background-color: $important-color;
+    border: none;
+    border-radius: 5px;
+    padding: 3% ;
+    cursor: pointer;
+
+}
+.btn_add_date{
+    padding: 1%;
+}
+.clock_icon{
+    width: 20px;
+    height: 20px;
+}
+::placeholder{
+    font-size: 1em;
+}

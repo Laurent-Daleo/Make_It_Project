@@ -1,6 +1,6 @@
 import React from 'react';
 import './task_app.scss'
-import background from './img/background_img.jpg'
+import background from './img/image.jpg'
 import UserProfile from '../userProfile';
 import AddTask from '../addTask';
 import SearchTask from '../searchTask';
